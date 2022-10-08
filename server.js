@@ -59,7 +59,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(express.static(__dirname + '/views'));
 
-app.get('/', function(req, res,next) {
+app.get('https://crystal-backend1.herokuapp.com/', function(req, res,next) {
 res.render('pages/index', {sessionId:sessionId});
 });
 
